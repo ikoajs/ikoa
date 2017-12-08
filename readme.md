@@ -15,14 +15,17 @@ ikoajs组织中的repo，为个人积累使用，如果您觉得好用，或者�
 
 - [x] 制定计划，规范代码，基于eslint修改成自己的习惯
 - [x] 创建一个http server
-- [] 异常处理
-- [] 委托实现
+- [x] 委托实现
+- [ ] 实现koa-convert, 任意类型函数都可转换
+- [ ] 异常处理
 
 注: 开发中的 ctx, response, request使用koa的习惯， 实现 [delegates](./lib/helper/Delegates.js)
 
 ### 中间件
 
 要求: 中间件支持koa，每个中间件功能明确单一职责。避免过多的重复造轮子，若有好的轮子不足则fork修改
+
+[demo地址]()
 
 - [ ] ikoa-router支持集中式管理
 - [ ] ikoa-session提供不同的介质存储
