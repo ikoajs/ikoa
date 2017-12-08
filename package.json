@@ -31,6 +31,7 @@
   },
   "devDependencies": {
     "babel-eslint": "^7.1.1",
+    "delegates": "^1.0.0",
     "eslint": "^3.17.1",
     "eslint-config-standard": "^7.0.1",
     "eslint-plugin-promise": "^3.5.0",
@@ -38,6 +39,10 @@
     "istanbul": "^0.4.0",
     "jest": "^20.0.0",
     "supertest": "^3.0.0"
+  },
+  "scripts": {
+    "lint": "eslint --ext .js lib/*",
+    "lint:fix": "npm run lint -- --fix"
   },
   "engines": {
     "node": "^4.8.4 || ^6.10.1 || ^7.10.1 || >= 8.1.4"
@@ -47,7 +52,7 @@
   ],
   "jest": {
     "testMatch": [
-      "**/test/!(helpers)/*.js"
+      "**/test/!(helpers)/!(href).js"
     ],
     "coverageReporters": [
       "text-summary",

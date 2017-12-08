@@ -16,3 +16,4 @@ rules:
   arrow-spacing: 2
   dot-location: [2, "property"]
   prefer-arrow-callback: 2
+  accessor-pairs: 0 # getter and setter pairs check
