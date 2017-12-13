@@ -25,7 +25,7 @@ ikoajs组织中的repo，为个人积累使用，如果您觉得好用，或者�
 
 要求: 中间件支持koa，每个中间件功能明确单一职责。避免过多的重复造轮子，若有好的轮子不足则fork修改
 
-[demo地址]()
+[demo地址](https://github.com/ikoajs/demo)
 
 - [ ] ikoa-router支持集中式管理
 - [ ] ikoa-session提供不同的介质存储
