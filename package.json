@@ -42,7 +42,9 @@
   },
   "scripts": {
     "lint": "eslint --ext .js lib/*",
-    "lint:fix": "npm run lint -- --fix"
+    "lint:fix": "npm run lint -- --fix",
+    "test": "jest",
+    "test-cov": "npm run test -- --coverage"
   },
   "engines": {
     "node": "^4.8.4 || ^6.10.1 || ^7.10.1 || >= 8.1.4"
