@@ -27,9 +27,10 @@ ikoajs组织中的repo，为个人积累使用，如果您觉得好用，或者�
 
 [demo地址](https://github.com/ikoajs/demo)
 
+- [x] [ikoa-static](https://github.com/ikoajs/static)可以处理各种文件格式，该层不做压缩等处理，压缩交于nginx统一处理或其他koa-compress处理
+- [ ] [ikoa-jwt](https://github.com/ikoajs/jwt) json web token认证
 - [ ] ikoa-router支持集中式管理
 - [ ] ikoa-session提供不同的介质存储
-- [ ] ikoa-static可以处理各种文件格式，该层不做压缩等处理，压缩交于nginx统一处理或其他koa-compress处理
 - [ ] ikoa-view 支持常见模板功能
 - [ ] ikoa-mock koa中使用mock，使用于中间层和底层端调试
 
